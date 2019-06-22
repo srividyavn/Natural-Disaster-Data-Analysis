@@ -1,0 +1,16 @@
+.bg
+{
+  background-image: url("../../assets/Images/background-1522569_1280.jpg");
+  min-height: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.boxshadow1{
+  border: 1px;
+  border-radius: 3px;
+  box-shadow: 0px 5px 8px 2px #1c214b;
+  transition: all 0.3s ease;
+  height: 100vh;
+}

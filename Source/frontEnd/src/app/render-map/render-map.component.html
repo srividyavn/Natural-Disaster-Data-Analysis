@@ -1,0 +1,42 @@
+<div class="bg p-3">
+  <h2><a class="text-white" href="/home">Natural Disaster Data Analysis</a></h2>
+</div>
+<div class="row mt-3 ml-5">
+  <!--<div class="col-6">-->
+  <!--<select style="width:250px !important;" (change)="disasterDropdownChange($event.target.value)">-->
+  <!--<option *ngFor="let type of disasterType" value="{{type[0]}}">{{type[0]}}</option>-->
+  <!--</select>-->
+  <!--</div>-->
+  <div class="col-sm-1"></div>
+  <div class="col-5 border border-secondary text-center">
+    <label class="m-2"><b>Earthquake: Compared to the other six continents, Antarctica is the least active in terms of earthquakes.
+      This is because very little of its land mass lies on or near the intersection of continental plates regions of seismic activity</b></label>
+    <google-chart [type]="'GeoChart'" [data]="eGeo_data"></google-chart>
+  </div>
+  <div class="col-5 border border-secondary text-center">
+    <label class="m-2"><b>Flood</b></label>
+    <google-chart [type]="'GeoChart'" [data]="fGeo_data" ></google-chart>
+  </div>
+</div>
+<div class="row mt-3 ml-5">
+  <div class="col-sm-1"></div>
+  <div class="col-5 border border-secondary  text-center">
+    <label class="m-2"><b>Storm</b></label>
+    <google-chart [type]="'GeoChart'" [data]="sGeo_data" ></google-chart>
+  </div>
+  <div class="col-5 border border-secondary  text-center">
+    <label class="m-2"><b>Landslide</b></label>
+    <google-chart [type]="'GeoChart'" [data]="lGeo_data" ></google-chart>
+  </div>
+</div>
+<div class="row mt-3 ml-5">
+  <div class="col-sm-1"></div>
+  <div class="col-5 border border-secondary text-center">
+    <label class="m-2"><b>Volcanic Activity</b></label>
+    <google-chart [type]="'GeoChart'" [data]="vGeo_data" ></google-chart>
+  </div>
+  <div class="col-5 border border-secondary text-center">
+    <label class="m-2"><b>Wildfire</b></label>
+    <google-chart [type]="'GeoChart'" [data]="wGeo_data" ></google-chart>
+  </div>
+</div>

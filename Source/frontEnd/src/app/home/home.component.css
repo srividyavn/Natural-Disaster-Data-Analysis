@@ -1,0 +1,29 @@
+.p-10
+{
+  padding-top: 10%;
+}
+
+.text-black
+{
+  color: black;
+}
+
+.bg-green
+{
+  background-color: green;
+  height:100%;
+  width:10%;
+}
+
+.theme
+{
+  border-left-color: green;
+  border-left-width: 10px;
+  border-radius: 30px;
+}
+
+.pRow
+{
+  padding-right: 3rem !important;
+  padding-left: 3rem !important
+}
